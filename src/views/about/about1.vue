@@ -176,7 +176,7 @@ import Navbar from '../../components/layers/Navbar.vue';
 import Footer from '../../components/layers/Footer.vue';
 
 export default defineComponent({
-    name: 'AboutPage',
+    name: 'About1Page',
     components: { Navbar, Footer },
 })
 </script>
