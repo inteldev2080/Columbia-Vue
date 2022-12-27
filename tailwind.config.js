@@ -12,7 +12,8 @@ module.exports = {
         text: '#212529'
       }, 
       boxShadow: {
-        headerShadow: "0px 8px 15px rgba(0, 0, 0, 0.05)"
+        header: "0px 8px 15px rgba(0, 0, 0, 0.05)", 
+        card: "0px 4px 20px rgba(0, 119, 255, 0.1)"
       }
     },
   },

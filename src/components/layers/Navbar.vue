@@ -1,5 +1,5 @@
 <template>
-    <header class="w-full flex items-center justify-around shadow-headerShadow relative z-10">
+    <header class="w-full flex items-center justify-around shadow-header relative z-10">
         <div class="container py-[33px] flex items-center justify-between">
             <div class="">
                 <router-link to="/">
@@ -23,7 +23,7 @@
                     <div
                         class="h-[calc(100vh_-_120px)] w-full flex flex-col items-center absolute top-[120px] left-0 z-1 bg-[#0000005e] dropdown-container">
                         <div class="w-full flex flex-col bg-white rounded-b-[50px]">
-                            <div class="w-full py-1 shadow-headerShadow relative -top-[12px]"></div>
+                            <div class="w-full py-1 shadow-header relative -top-[12px]"></div>
                             <div class="w-full flex justify-center px-8 pb-8 overflow-hidden relative">
                                 <div class="">
                                     <img class="w-[182px] h-[182px] absolute left-[50px] bottom-b"
@@ -138,6 +138,10 @@ export default defineComponent({
         .dropdown-container {
             @apply opacity-0 invisible transition-all duration-500;
 
+            img {
+                display: none;
+            }
+
             a {
                 @apply transition-all relative text-text;
 
@@ -148,6 +152,7 @@ export default defineComponent({
 
                 &:hover {
                     @apply text-black font-medium;
+
                     &::after {
                         @apply bg-primary;
                     }
@@ -159,6 +164,10 @@ export default defineComponent({
 
     .nav-item.parent:hover .dropdown-container {
         @apply opacity-100 visible;
+
+        img {
+            display: block;
+        }
     }
 
     .nav-active {

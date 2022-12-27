@@ -4,6 +4,7 @@
 
         <div class="w-full">
             <FirstSection />
+            <SecondSection />
         </div>
 
         <Footer />
@@ -16,9 +17,10 @@ import Navbar from '../../components/layers/Navbar.vue';
 import Footer from '../../components/layers/Footer.vue';
 
 import FirstSection from "../../components/sections/home/first.vue";
+import SecondSection from "../../components/sections/home/second.vue";
 
 export default defineComponent({
     name: 'HomePage',
-    components: { Navbar, Footer, FirstSection, },
+    components: { Navbar, Footer, FirstSection, SecondSection },
 })
 </script>
