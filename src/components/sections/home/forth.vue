@@ -6,7 +6,7 @@
             <div class="w-[40%] flex items-center justify-start">
                 <h3 class="w-[400px] text-5xl leading-snug text-primary font-extrabold relative">
                     Beneficios de ser parte de Columbia
-                    <img class="w-[96px] absolute left-0 -top-[118px]" alt="circle" src="../../../assets/images/circle-fill.png" />
+                    <img class="w-[96px] absolute left-0 -top-[118px]" alt="circle" src="../../../assets/images/circle.png" />
                 </h3>
             </div>
             <div class="w-[60%] flex flex-col items-center ">

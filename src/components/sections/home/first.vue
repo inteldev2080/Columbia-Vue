@@ -1,13 +1,13 @@
 <template>
     <div class="w-full flex">
-        <div class="w-1/2 flex justify-center items-center relative">
+        <div class="w-1/2 flex justify-center items-center relative border-t-[10px] border-primary">
             <img class="w-[160px] absolute -right-[80px]" alt="circle" src="../../../assets/images/circle.png" />
             <div class="flex flex-col items-start">
                 <p class="flex items-center leading-4 text-[#FFC107]">
                     <img class="h-[20px] mr-2" alt="star" src="../../../assets/images/star.png" />
                     <span>ESPECIALIZACIÓN</span>
                 </p>
-                <h3 class="text-primary font-extrabold text-4xl my-4">Aviación Comercial</h3>
+                <h3 class="text-primary font-extrabold leading-snug text-[38px] my-4">Aviación Comercial</h3>
                 <div class="flex flex-col">
                     <div class="flex items-center mb-4">
                         <div class="w-[25px]">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
 
-                <button class="bg-primary text-white px-5 py-3 flex items-center rounded-full hover:bg-secondary">
+                <button class="bg-primary text-white px-6 py-3 flex items-center rounded-full hover:bg-secondary">
                     Más información
                     <svg class="ml-2" width="17" height="14" viewBox="0 0 17 14" fill="none"
                         xmlns="http://www.w3.org/2000/svg">

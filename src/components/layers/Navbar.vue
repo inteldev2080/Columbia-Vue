@@ -25,11 +25,11 @@
                         <div class="w-full flex flex-col bg-white rounded-b-[50px]">
                             <div class="w-full py-1 shadow-header relative -top-[12px]"></div>
                             <div class="w-full flex justify-center px-8 pb-8 overflow-hidden relative">
-                                <div class="">
+                                <div class="circle-wrap">
                                     <img class="w-[182px] h-[182px] absolute left-[50px] bottom-b"
                                         src="../../assets/images/circle.png" alt="circle" />
                                 </div>
-                                <div class="">
+                                <div class="circle-wrap">
                                     <img class="w-[132px] h-[132px] absolute top-[30px] -right-[66px]"
                                         src="../../assets/images/circle.png" alt="circle" />
                                 </div>
@@ -138,7 +138,7 @@ export default defineComponent({
         .dropdown-container {
             @apply opacity-0 invisible transition-all duration-500;
 
-            img {
+            .circle-wrap {
                 display: none;
             }
 
@@ -165,7 +165,7 @@ export default defineComponent({
     .nav-item.parent:hover .dropdown-container {
         @apply opacity-100 visible;
 
-        img {
+        .circle-wrap {
             display: block;
         }
     }

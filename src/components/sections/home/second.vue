@@ -2,7 +2,7 @@
     <div class="w-full flex justify-around overflow-hidden relative">
         <div class="container flex justify-between items-center py-20">
             <div class="flex items-center justify-around">
-                <h3 class="w-[340px] px-8 text-4xl leading-snug text-primary font-extrabold">¡Tenemos lo mejor para ti!</h3>
+                <h3 class="w-[420px] text-5xl leading-snug text-primary font-extrabold">¡Tenemos lo mejor para ti!</h3>
                 <img class="w-[226px] absolute -bottom-[113px]" alt="circle" src="../../../assets/images/circle-fill.png" />
             </div>
             <div class="flex items-center overflow-x-auto overflow-y-hidden">
