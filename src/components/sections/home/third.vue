@@ -2,7 +2,7 @@
     <div class="w-full flex justify-around overflow-hidden bg-[#E6F1FF]">
         <div class="container flex flex-col justify-between items-center py-20">
             <div class="w-full flex items-center justify-between pb-10">
-                <h3 class="w-[420px] text-5xl leading-11 text-primary font-extrabold">¡Somos tu mejor opción!
+                <h3 class="w-[420px] text-5xl  leading-snug text-primary font-extrabold">¡Somos tu mejor opción!
                 </h3>
                 <div class="border border-primary rounded-full overflow-hidden">
                     <button class="bg-primary text-white text-base font-semibold px-4 py-2">ALUMNOS EXITOSOS</button>

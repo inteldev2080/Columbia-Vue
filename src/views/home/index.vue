@@ -7,6 +7,7 @@
             <SecondSection />
             <ThirdSection />
             <ForthSection />
+            <FifthSection />
         </div>
 
         <Footer />
@@ -22,9 +23,10 @@ import FirstSection from "../../components/sections/home/first.vue";
 import SecondSection from "../../components/sections/home/second.vue";
 import ThirdSection from "../../components/sections/home/third.vue";
 import ForthSection from "../../components/sections/home/forth.vue";
+import FifthSection from "../../components/sections/home/fifth.vue";
 
 export default defineComponent({
     name: 'HomePage',
-    components: { Navbar, Footer, FirstSection, SecondSection, ThirdSection, ForthSection },
+    components: { Navbar, Footer, FirstSection, SecondSection, ThirdSection, ForthSection, FifthSection },
 })
 </script>

@@ -1,8 +1,10 @@
 <template>
-    <div class="w-full flex justify-around overflow-hidden">
+    <div class="w-full flex justify-around overflow-hidden relative">
+        <img class="w-[320px] h-[320px] absolute -right-[160px] -bottom-[160px]" src="../../../assets/images/circle-fill.png" alt="circle" />
+
         <div class="container flex justify-between items-center py-20">
             <div class="w-[40%] flex items-center justify-start">
-                <h3 class="w-[400px] text-5xl text-primary font-extrabold relative">
+                <h3 class="w-[400px] text-5xl leading-snug text-primary font-extrabold relative">
                     Beneficios de ser parte de Columbia
                     <img class="w-[96px] absolute left-0 -top-[118px]" alt="circle" src="../../../assets/images/circle-fill.png" />
                 </h3>
