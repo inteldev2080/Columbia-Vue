@@ -27,7 +27,7 @@
                                         <img class="w-full aspect-[5/4]" alt="tex1"
                                             src="../../../assets/images/text1.png" />
                                         <span
-                                            class="absolute left-2 bottom-2 text-white font-semibold text-2xl">01</span>
+                                            class="absolute left-2 bottom-2 text-white font-semibold text-7xl">0{{ slide }}</span>
                                     </div>
 
                                     <div class="w-full flex justify-start mt-8">
@@ -70,7 +70,7 @@
                                         <img class="w-full aspect-[5/4]" alt="tex1"
                                             src="../../../assets/images/text1.png" />
                                         <span
-                                            class="absolute left-2 bottom-2 text-white font-semibold text-2xl">01</span>
+                                            class="absolute left-2 bottom-2 text-white font-semibold text-7xl">0{{ slide }}</span>
                                     </div>
 
                                     <div class="w-full flex justify-start mt-8">
@@ -141,7 +141,7 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .carousel {
-    @apply w-full p-4;
+    @apply w-full;
 
     .carousel__slide {
         padding: 5px;

@@ -79,7 +79,7 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .carousel {
-    @apply w-full p-4;
+    @apply w-full;
 
     .carousel__slide {
         padding: 5px;
