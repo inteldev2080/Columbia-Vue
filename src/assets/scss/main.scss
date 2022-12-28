@@ -19,3 +19,11 @@
         max-width: 1500px;
     }
 }
+
+button, input {
+    transition: all 0.3s;
+}
+
+img {
+    user-select: none;
+}
