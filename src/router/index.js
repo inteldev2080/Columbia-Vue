@@ -56,6 +56,16 @@ const routes = [
         name: 'Education4',
         component: () => import(/* webpackChunkName: "about" */ '../views/education/education4.vue'),
     },
+    {
+        path: '/partner',
+        name: 'partner',
+        component: () => import(/* webpackChunkName: "about" */ '../views/partner/index.vue'),
+    },
+    {
+        path: '/portal',
+        name: 'portal',
+        component: () => import(/* webpackChunkName: "about" */ '../views/portal/index.vue'),
+    },
 ]
 
 const router = createRouter({
