@@ -2,9 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600&display=swap');
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+p, span {
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 
 .container {
