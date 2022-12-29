@@ -1,7 +1,7 @@
 <template>
-    <div class="w-full flex flex-col relative py-20">
-        <img class="w-[216px] absolute -left-[108px] top-20" alt="circle"
-            src="../../../assets/images/circle.png" />
+    <div class="w-full flex flex-col relative py-20 overflow-hidden">
+        <img class="w-[467px] absolute -right-[233px] -bottom-[233px] -z-10" alt="circle"
+            src="../../../assets/images/circle-fill.png" />
 
         <div class="container flex items-center">
             <div class="w-[25%] flex items-center justify-center">
@@ -40,7 +40,7 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-    name: 'SobreForthSection'
+    name: 'EducationForthSection'
 })
 
 </script>

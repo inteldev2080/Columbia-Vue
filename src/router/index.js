@@ -31,6 +31,31 @@ const routes = [
         name: 'Sobre',
         component: () => import(/* webpackChunkName: "about" */ '../views/sobre/index.vue'),
     },
+    {
+        path: '/education',
+        name: 'Education',
+        component: () => import(/* webpackChunkName: "about" */ '../views/education/index.vue'),
+    },
+    {
+        path: '/education1',
+        name: 'Education1',
+        component: () => import(/* webpackChunkName: "about" */ '../views/education/education1.vue'),
+    },
+    {
+        path: '/education2',
+        name: 'Education2',
+        component: () => import(/* webpackChunkName: "about" */ '../views/education/education2.vue'),
+    },
+    {
+        path: '/education3',
+        name: 'Education3',
+        component: () => import(/* webpackChunkName: "about" */ '../views/education/education3.vue'),
+    },
+    {
+        path: '/education4',
+        name: 'Education4',
+        component: () => import(/* webpackChunkName: "about" */ '../views/education/education4.vue'),
+    },
 ]
 
 const router = createRouter({

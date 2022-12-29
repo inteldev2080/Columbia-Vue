@@ -115,7 +115,7 @@ import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide } from 'vue3-carousel'
 
 export default defineComponent({
-    name: 'HomeThirdSection',
+    name: 'SobreThirdSection',
     components: {
         Pagination2,
         Carousel,
