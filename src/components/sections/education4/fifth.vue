@@ -2,6 +2,8 @@
     <div class="w-full flex flex-col relative py-20 overflow-hidden">
         <img class="w-[467px] absolute -right-[233px] -bottom-[233px] -z-10" alt="circle"
             src="../../../assets/images/circle-fill.png" />
+        <img class="w-[224px] absolute -left-[112px] top-[112px] -z-10" alt="circle"
+            src="../../../assets/images/circle.png" />
 
         <div class="container flex items-center">
             <div class="w-[25%] flex items-center justify-center">
