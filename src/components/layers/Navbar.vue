@@ -21,7 +21,7 @@
                     </router-link>
 
                     <div
-                        class="h-[calc(100vh_-_120px)] w-full flex flex-col items-center absolute top-[120px] left-0 z-1 bg-[#0000005e] dropdown-container">
+                        class="h-[calc(100vh_-_120px)] w-full flex flex-col items-center absolute top-[120px] left-0 z-1 bg-background dropdown-container">
                         <div class="w-full flex flex-col bg-white rounded-b-[50px]">
                             <div class="w-full py-1 shadow-header relative -top-[12px]"></div>
                             <div class="w-full flex justify-center px-8 pb-8 overflow-hidden relative">

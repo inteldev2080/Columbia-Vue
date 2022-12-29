@@ -51,6 +51,14 @@
             <img class="w-full aspect-[4/3]" alt="image" src="../../../assets/images/bg1.png" />
             <img class="w-full h-full absolute left-5 bottom-5" alt="border" src="../../../assets/images/border.png" />
         </div>
+
+        <SystemModal :isShow="privacyModal" :onClose="onPrivacyCloseHandle">
+            <PrivacyContent />
+        </SystemModal>
+
+        <SystemModal :isShow="termsModal" :onClose="onTermsCloseHandle">
+            <TermsContent />
+        </SystemModal>
     </div>
 </template>
 
@@ -58,12 +66,27 @@
 
 import { defineComponent } from 'vue'
 import Pagination1 from '../../wizards/pagination1.vue'
+import SystemModal from "../../wizards/modals/system.vue"
+import PrivacyContent from "../../sections/system/privacy.vue"
+import TermsContent from "../../sections/system/terms.vue"
 
 export default defineComponent({
     name: 'HomeFirstSection',
+    data: () => ({
+        privacyModal: false, 
+        termsModal: true
+    }),
     components: {
-        Pagination1
-    }
+        Pagination1, SystemModal, PrivacyContent, TermsContent
+    },
+    methods: {
+        onPrivacyCloseHandle: function () {
+            this.privacyModal = false;
+        }, 
+        onTermsCloseHandle: function () {
+            this.termsModal = false;
+        }
+    },
 })
 
 </script>

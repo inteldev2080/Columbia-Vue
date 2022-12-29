@@ -9,7 +9,8 @@ module.exports = {
       colors: {
         primary: "#0077FF",
         secondary: "#395ab9",
-        text: '#212529'
+        text: '#212529', 
+        background: '#0000008e',
       },
       boxShadow: {
         header: "0px 8px 15px rgba(0, 0, 0, 0.05)",
@@ -21,5 +22,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')({ nocompatible: true })
+  ],
 }
