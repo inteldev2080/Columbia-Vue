@@ -76,6 +76,11 @@ const routes = [
         name: 'blog-detail',
         component: () => import('../views/blog/details.vue'),
     },
+    {
+        path: '/payment',
+        name: 'payment',
+        component: () => import('../views/payment/index.vue'),
+    },
 ]
 
 const router = createRouter({
