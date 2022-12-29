@@ -5,19 +5,19 @@
                 <h3 class="w-[420px] text-5xl leading-snug text-primary font-extrabold">¡Somos tu mejor opción!
                 </h3>
                 <div class="border border-primary rounded-full overflow-hidden">
-                    <button class="text-base font-semibold px-4 py-2"
-                        :class="isStudentTeacher ? 'bg-primary text-white' : 'bg-white text-primary'"
+                    <button class="text-base font-semibold px-4 py-2 uppercase"
+                        :class="isStudentTeacher ? 'bg-primary text-white' : 'bg-[#E6F1FF] text-primary'"
                         v-on:click="toggleST(true)">ALUMNOS
                         EXITOSOS</button>
-                    <button class="text-base font-semibold px-4 py-2"
-                        :class="!isStudentTeacher ? 'bg-primary text-white' : 'bg-white text-primary'"
+                    <button class="text-base font-semibold px-4 py-2 uppercase"
+                        :class="!isStudentTeacher ? 'bg-primary text-white' : 'bg-[#E6F1FF] text-primary'"
                         v-on:click="toggleST(false)">nuestros
                         docentes</button>
                 </div>
             </div>
             <div class="w-full flex items-center justify-between relative">
                 <img class="w-[182px] absolute -right-[91px] bottom-0" alt="circle"
-                    src="../../../assets/images/circle-fill.png" />
+                    src="../../../assets/images/circle.png" />
                 <div class="w-full" v-if="isStudentTeacher">
                     <Carousel :settings="settings" :transition="500" :autoplay="3000" :wrap-around="true">
                         <Slide v-for="slide in 4" :key="slide">

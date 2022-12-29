@@ -1,29 +1,29 @@
 <template>
     <div class="w-full flex">
-        <div class="w-1/2 flex justify-center items-center relative border-t-[10px] border-primary">
+        <div class="w-1/2 flex justify-end items-center relative border-t-[10px] border-primary">
             <img class="w-[160px] absolute -right-[80px]" alt="circle" src="../../../assets/images/circle.png" />
-            <div class="flex flex-col items-start">
+            <div class="mr-[5vw] flex flex-col items-start">
                 <p class="flex items-center leading-4 text-[#FFC107]">
                     <img class="h-[20px] mr-2" alt="star" src="../../../assets/images/star.png" />
                     <span>ESPECIALIZACIÓN</span>
                 </p>
-                <h3 class="text-primary font-extrabold leading-snug text-[38px] my-4">Aviación Comercial</h3>
+                <h3 class="text-primary font-extrabold leading-snug text-5xl my-4">Aviación Comercial</h3>
                 <div class="flex flex-col">
-                    <div class="flex items-center mb-4">
+                    <div class="flex items-center mb-6">
                         <div class="w-[25px]">
                             <img class="h-[20px] mr-2" alt="clock" src="../../../assets/images/clock.png" />
                         </div>
                         <span class="text-primary">Duración: </span>
                         <span class="text-text text-lg">2 años</span>
                     </div>
-                    <div class="flex items-center mb-4">
+                    <div class="flex items-center mb-6">
                         <div class="w-[25px]">
                             <img class="h-[20px] mr-2" alt="flag" src="../../../assets/images/flag.png" />
                         </div>
                         <span class="text-primary">Inicio: </span>
                         <span class="text-text text-lg">12 de diciembre 2022</span>
                     </div>
-                    <div class="flex items-center mb-4">
+                    <div class="flex items-center mb-6">
                         <div class="w-[25px]">
                             <img class="h-[20px] mr-2" alt="position" src="../../../assets/images/position.png" />
                         </div>

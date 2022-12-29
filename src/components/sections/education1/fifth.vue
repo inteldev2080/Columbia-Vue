@@ -7,10 +7,10 @@
             <div class="w-full flex items-center justify-between">
                 <h1 class="text-[42px] text-primary font-extrabold text-left">Docentes de la carrera</h1>
                 <div class="flex items-center py-10">
-                    <button class="mr-4 p-3 bg-primary rounded-xl hover:bg-secondary">
+                    <button class="mr-4 p-3 bg-primary rounded-xl hover:bg-secondary" v-on:click="backHandle">
                         <img class="min-w-[24px] aspecto[1/1]" alt="left" src="../../../assets/images/arrow_back.png" />
                     </button>
-                    <button class="p-3 bg-primary rounded-xl hover:bg-secondary">
+                    <button class="p-3 bg-primary rounded-xl hover:bg-secondary" v-on:click="nextHandle">
                         <img class="min-w-[24px] aspecto[1/1]" alt="right"
                             src="../../../assets/images/arrow_next.png" />
                     </button>
@@ -26,8 +26,8 @@
                                     src="../../../assets/images/teacher1.png" />
                             </div>
                             <div class="w-[50%] flex flex-col justify-center p-4">
-                                <h4 class="text-primary font-extrabold text-xl mb-4">DIETER TAURER</h4>
-                                <p class="text-text mb-4">Especialista en cocina italiana y francesa. Consultor
+                                <h4 class="text-primary font-extrabold text-xl text-left mb-4">DIETER TAURER</h4>
+                                <p class="text-text mb-4 text-left">Especialista en cocina italiana y francesa. Consultor
                                     gastronómico.
                                 </p>
                                 <img class="w-[40px] h-[40px]" alt="chef" src="../../../assets/images/linkedin.png" />
@@ -58,6 +58,16 @@ export default defineComponent({
             itemsToShow: 2,
         },
     }),
+    methods: {
+        backHandle: function () {
+            const carousel = this.$refs.carouselRef;
+            carousel.prev();
+        },
+        nextHandle: function () {
+            const carousel = this.$refs.carouselRef;
+            carousel.next();
+        },
+    }
 })
 
 </script>

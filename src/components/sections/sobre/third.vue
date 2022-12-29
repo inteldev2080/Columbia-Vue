@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex justify-around overflow-hidden bg-[#E6F1FF]">
+    <div class="w-full flex justify-around overflow-hidden bg-[#F8F9FA]">
         <div class="container flex flex-col justify-between items-center relative">
             <img class="w-[216px] absolute -top-[108px] left-0" alt="circle" src="../../../assets/images/circle.png" />
             <div class="w-full flex items-center justify-between pt-10">

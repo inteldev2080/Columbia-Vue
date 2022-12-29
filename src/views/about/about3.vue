@@ -31,6 +31,72 @@
             </div>
         </div>
 
+
+        <div class="container flex justify-between items-center py-20">
+            <div class="flex flex-col items-center ">
+                <div class="flex items-stretch">
+                    <div class="w-1/2 flex flex-col p-8 relative">
+                        <h3 class="text-text font-extrabold text-[64px]">1.</h3>
+                        <div class="flex items-center mb-4">
+                            <img class="w-[34px] mr-2" alt="star" src="../../assets/images/b-world.png" />
+                            <h5 class="text-sm font-semibold uppercase">PRESTIGIO</h5>
+                        </div>
+                        <p class="font-light text-[#69696B]">Gran trayectoria de éxitos y egresados trabajando alrededor
+                            del mundo</p>
+
+                        <div class="bg-white w-[80px] h-[40px] absolute -right-[40px] -bottom-[20px]"></div>
+                    </div>
+                    <div class="w-1/2 flex flex-col p-8">
+                        <h3 class="text-text font-extrabold text-[64px]">2.</h3>
+                        <div class="flex items-center mb-4">
+                            <img class="w-[34px] mr-2" alt="trank" src="../../assets/images/blue-trank.png" />
+                            <h5 class="text-sm font-semibold uppercase">zoom</h5>
+                        </div>
+                        <p class="font-light text-[#69696B]">Clases en vivo, sincrónicas y eficaces, en innovadora
+                            plataforma para aprendizaje online.Lo mejor y lo último que hay.</p>
+                    </div>
+                    <div class="w-1/2 flex flex-col p-8">
+                        <h3 class="text-text font-extrabold text-[64px]">3.</h3>
+                        <div class="flex items-center mb-4">
+                            <img class="w-[34px] mr-2" alt="flag" src="../../assets/images/b-certific.png" />
+                            <h5 class="text-sm font-semibold uppercase">INGLÉS ESPECIALIZADO</h5>
+                        </div>
+                        <p class="font-light text-[#69696B]">Reforzamos tu idioma inglés, clases vivenciales. Nueva
+                            metodología.</p>
+                    </div>
+                </div>
+                <div class="flex items-stretch">
+                    <div class="w-1/2 flex flex-col p-8">
+                        <h3 class="text-text font-extrabold text-[64px]">4.</h3>
+                        <div class="flex items-center mb-4">
+                            <img class="w-[34px] mr-2" alt="book" src="../../assets/images/b-bookmark.png" />
+                            <h5 class="text-sm font-semibold uppercase">COLUMBIA JOBS</h5>
+                        </div>
+                        <p class="font-light text-[#69696B]">Oportunidades laborales y procesos de selección de personal
+                            en nuestra área de Columbia Jobs.</p>
+                    </div>
+                    <div class="w-1/2 flex flex-col p-8">
+                        <h3 class="text-text font-extrabold text-[64px]">5.</h3>
+                        <div class="flex items-center mb-4">
+                            <img class="w-[34px] mr-2" alt="book" src="../../assets/images/blue-star.png" />
+                            <h5 class="text-sm font-semibold uppercase">FORMACIÓN DE CALIDAD</h5>
+                        </div>
+                        <p class="font-light text-[#69696B]">Profesores altamente capacitados y especializados.
+                            Equipamiento, infraestructura, experiencia y calidad.</p>
+                    </div>
+                    <div class="w-1/2 flex flex-col p-8">
+                        <h3 class="text-text font-extrabold text-[64px]">6.</h3>
+                        <div class="flex items-center mb-4">
+                            <img class="w-[34px] mr-2" alt="book" src="../../assets/images/b-global.png" />
+                            <h5 class="text-sm font-semibold uppercase">NETWORKING</h5>
+                        </div>
+                        <p class="font-light text-[#69696B]">Convenios y afiliacionesnacionales e
+                            internacionales.Desarrollo de alianzas ysinergias positivas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="w-full overflow-hidden bg-[#F8F9FA]">
             <div class="container flex items-center justify-between py-16 relative">
                 <img class="w-[128px] h-[128px] absolute left-0 -top-[64px]" alt="circle"
