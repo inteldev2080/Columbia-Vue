@@ -7,7 +7,7 @@
             <div class="w-full flex items-center justify-between">
                 <h1 class="text-[42px] text-primary font-extrabold text-left">Docentes de la carrera</h1>
                 <div class="flex items-center py-10">
-                    <button class="mr-4 p-3 bg-primary rounded-xl hover:bg-secondary" >
+                    <button class="mr-4 p-3 bg-primary rounded-xl hover:bg-secondary">
                         <img class="min-w-[24px] aspecto[1/1]" alt="left" src="../../../assets/images/arrow_back.png" />
                     </button>
                     <button class="p-3 bg-primary rounded-xl hover:bg-secondary">

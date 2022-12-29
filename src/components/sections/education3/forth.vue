@@ -19,7 +19,7 @@
                         <slide v-for="slide in 3" :key="slide">
                             <div class="flex flex-col w-full overflow-hidden rounded-xl pt-[70px] relative">
                                 <img class="w-[130px] aspect-[1/1] rounded-full absolute left-[calc(50%_-_65px)] top-[5px]"
-                                    alt="card" src="../../../assets/images/card1.png" />
+                                    alt="card" src="../../../assets/images/student3.png" />
                                 <div class="flex flex-col items-center p-4 rounded-[40px] bg-primary pt-[85px]">
                                     <p class="w-[400px] text-white text-lg font-medium text-center mb-8">Columbia me
                                         brindó las

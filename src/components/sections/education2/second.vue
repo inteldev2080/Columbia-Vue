@@ -1,40 +1,40 @@
 <template>
     <div class="w-full flex justify-around overflow-hidden relative">
-        <img class="w-[295px] h-[295px] absolute -right-[120px] -top-[150px]"
-            src="../../../assets/images/circle.png" alt="circle" />
-            
+        <img class="w-[295px] h-[295px] absolute -right-[120px] -top-[150px]" src="../../../assets/images/circle.png"
+            alt="circle" />
+
         <img class="w-[228px] h-[228px] absolute -left-[114px] -bottom-[114px] z-100"
             src="../../../assets/images/circle.png" alt="circle" />
 
-        <div class="container flex justify-between items-center py-20">
+        <div class="container flex justify-between items-center py-10">
             <div class="w-full flex">
                 <div class="w-[40%]">
                     <div class="w-full relative">
-                        <img class="w-full aspect-[5/5]" alt="tex1" src="../../../assets/images/education1.png" />
+                        <img class="w-full aspect-[5/5]" alt="tex1" src="../../../assets/images/education3.png" />
                     </div>
                 </div>
                 <div class="w-[60%] flex flex-col justify-center items-start px-8">
                     <div class="flex justify-start items-end mb-4">
-                        <h3 class="text-4xl text-primary font-extrabold text-left">Sobre la carrera</h3>
+                        <h3 class="text-4xl text-primary font-extrabold text-left">Sobre el programa</h3>
                     </div>
-                    <p class="tex-text text-xl mb-4 text-left">Recibe una formación práctica que te permitirá trabajar
-                        en las mejores cadenas hoteleras y realizar línea de carrera. Vive tu carrera desde el primer
-                        ciclo realizando visitas guiadas y participa de viajes internacionales a reconocidos hoteles y
-                        resorts antes de terminar tu carrera.</p>
+                    <p class="tex-text text-sm mb-4 text-left">Te ofrecemos un programa de especialización para alcanzar
+                        el dominio de las técnicas necesarias para preparar finos y exquisitos postres y panes. Te
+                        enseñamos a elaborar, decorar, costear y comercializar todo tipo de postres y a practicar las
+                        técnicas de chocolatería, pastelería y panadería fina.</p>
 
                     <div class="flex items-center mb-6">
                         <img class="w-[35px] mr-2" src="../../../assets/images/calendar.png" alt="calendar" />
-                        <span class="text-primary font-medium">Duración: </span>
-                        <span class="text-text mr-6">3 años</span>
+                        <span class="text-primary text-sm font-medium">Duración: </span>
+                        <span class="text-text text-sm mr-6">08 meses</span>
                         <img class="w-[35px] mr-2" src="../../../assets/images/calendar.png" alt="calendar" />
-                        <span class="text-primary font-medium">Frecuencia: </span>
-                        <span class="text-text mr-6">Lunes a Viernes</span>
+                        <span class="text-primary text-sm font-medium">Frecuencia: </span>
+                        <span class="text-text text-sm mr-6">L - M - V</span>
                         <img class="w-[35px] ml-3 mr-2" src="../../../assets/images/pin.png" alt="monitor" />
-                        <span class="text-primary font-medium">Sede: </span>
-                        <span class="text-text">San Isidro</span>
+                        <span class="text-primary text-sm font-medium">Sede: </span>
+                        <span class="text-text text-sm">San Isidro</span>
                     </div>
                     <button
-                        class="bg-primary text-white px-6 py-3 flex items-center rounded-full mb-6 hover:bg-secondary">
+                        class="bg-primary text-white text-sm px-6 py-3 flex items-center rounded-full mb-6 hover:bg-secondary">
                         MALLA CURRICULAR
                         <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
